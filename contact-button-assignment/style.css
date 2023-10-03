@@ -1,0 +1,39 @@
+/*
+MY COLOR PALETTE
+Color 1 - #DAD6D6
+Color 2 - #FFFFFF
+Color 3 - #605C4E
+Color 4 - #D7D1AD
+Color 5 - #000000
+*/
+
+body {
+    background-color:#DAD6D6;
+    text-align:center;
+}
+
+button {
+    background-color:#605C4E; 
+    color:#FFFFFF;
+    font-family: 'Quattrocento Sans', sans-serif;
+    width: 200px;
+    padding: 10px;
+    margin-top: 50px;
+    border:none;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color:#D7D1AD;
+}
+
+h1 {
+    font-family: 'Ovo', serif;
+    font-size:45px;
+    text-transform: uppercase;
+}
+
+h2{
+   font-family: 'Quattrocento Sans', sans-serif; 
+}
+
