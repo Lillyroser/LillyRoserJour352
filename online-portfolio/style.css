@@ -1,0 +1,54 @@
+img {
+    width:100%;
+}
+
+
+body {
+ margin:50px 50px 50px 50px;  
+}
+
+#topper {
+    height:500px;
+    background-color: lightgray;
+    
+    
+}
+
+img {
+    width:325px;
+    border-radius:400px;
+    float:left;
+    margin:20px 400px 50px 200px;
+    border:lightblue;
+    height: 460px;
+}
+
+
+
+button {
+font-family: 'Montserrat', sans-serif;    
+background-color:lightsteelblue;
+border:none;
+color:black;
+border-radius:10px;
+padding: 10px 20px 10px 20px;
+}
+
+button:hover {
+background-color: #BCA893;
+    
+}
+
+#button-container {
+    text-align:center;
+    
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: left;
+    font-size: 50px;
+}
+
+
