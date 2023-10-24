@@ -1,3 +1,6 @@
+@media {
+
+
 img {
     width:100%;
 }
@@ -7,9 +10,12 @@ body {
  margin:50px 50px 50px 50px;  
 }
 
+    
+
 #topper {
     height:500px;
-    background-color: lightgray;
+    background-color: #D9D9D9;
+    
     
     
 }
@@ -19,36 +25,92 @@ img {
     border-radius:400px;
     float:left;
     margin:20px 400px 50px 200px;
-    border:lightblue;
+    border:#A9B8CE;
     height: 460px;
 }
 
 
 
-button {
+#button {
 font-family: 'Montserrat', sans-serif;    
-background-color:lightsteelblue;
+background-color:#A9B8CE;
 border:none;
 color:black;
 border-radius:10px;
 padding: 10px 20px 10px 20px;
+text-align:center;
+margin:10px;
+color:white;
+display:block;
+   
+}
 }
 
+
 button:hover {
-background-color: #BCA893;
+background-color: #D9D9D9;
     
 }
 
-#button-container {
-    text-align:center;
     
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
     color: black;
     text-align: left;
-    font-size: 50px;
+    font-size: 500px;
+}
+
+h1 {
+    
+    font-family: 'Playfair Display', serif;
+    margin:0px 200px 0px 0px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 75px;
+
+}
+
+h2 {
+    
+    font-family: 'Petit Formal Script', cursive;
+    margin:0px 200px 0px 0px; 
+    text-align:center;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+#footer {
+    position:fixed;
+    bottom:0px;
+    background-color:#D9D9D9;
+    color:black;
+}
+
+p {
+ font-family: 'Times New Roman'   
+}
+
+h4 {
+    font-family: 'Times New Roman' 
+}
+
+h5 {
+   font-family: 'Times New Roman' 
+}
+
+h6 {
+   font-family: 'Times New Roman' 
+}
 }
 
 
+@media (min-width:576px) {
+    h1 {
+    font-size: 100px;
+}
+    
+
+
+}
