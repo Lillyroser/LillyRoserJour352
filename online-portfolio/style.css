@@ -1,6 +1,21 @@
 @media {
 
+#topper {
+    height:500px;
+    background-color: #D9D9D9;
+    text-align: center;
+}
 
+    
+body {
+ margin:50px 50px 50px 50px;  
+}
+
+   
+
+ .centered {
+text-align: center
+    }
     
 h1 {
     
@@ -22,17 +37,10 @@ h2 {
     }
 
 
-body {
- margin:50px 50px 50px 50px;  
-}
 
     
 
-#topper {
-    height:500px;
-    background-color: #D9D9D9;
-    text-align: center;
-}
+
 
 img {
     width:325px;
@@ -55,6 +63,7 @@ padding: 10px 20px 10px 20px;
 margin:10px;
 color:white;
 display:block;
+text-align: center;
 }
 
 
