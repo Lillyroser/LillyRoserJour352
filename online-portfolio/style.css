@@ -1,15 +1,13 @@
 @media {
 
-
-    
+ 
 body {
  margin:50px 50px 50px 50px;  
 }
 
    
-
- .centered {
-text-align: center
+     .centered {
+text-align: center;
     }
     
 h1 {
@@ -20,6 +18,7 @@ h1 {
     padding-top: 20px;
     font-size: 50px;
 }
+
     
 h2 {
     
@@ -48,7 +47,7 @@ img {
 
 
 
-#button {
+button {
 font-family: 'Montserrat', sans-serif;    
 background-color:#A9B8CE;
 border:none;
@@ -60,9 +59,8 @@ text-align: center;
 }
 
 
-
 button:hover {
-background-color: #D9D9D9;
+background-color: white;
     
 }
 
@@ -102,15 +100,12 @@ h6 {
     border-bottom:10px solid white;
     }
     
-    .nav {
-        justify-content: center;
+    .row {
+        margin: 0px 0px 25px 0px;
     }
     
-    .nav:hover{
-        color:#D9D9D9
-    }
+  
 }
-
 @media (min-width:576px) {
     h1 {
     font-size: 100px;
