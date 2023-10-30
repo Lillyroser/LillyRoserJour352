@@ -13,7 +13,6 @@ text-align: center;
 h1 {
     
     font-family: 'Playfair Display', serif;
-    margin:0px 200px 0px 0px;
     text-align: center;
     padding-top: 20px;
     font-size: 50px;
@@ -23,7 +22,6 @@ h1 {
 h2 {
     
     font-family: 'Petit Formal Script', cursive;
-    margin:0px 200px 0px 0px; 
     text-align:center;
     font-weight: 100;
     font-size: 40px;
@@ -37,27 +35,28 @@ h2 {
 
 
 img {
-    width:325px;
+    width:70%;
     border-radius:400px;
-    float:left;
-    margin:20px 400px 50px 200px;
+    margin:20px 0px 20px 0px;
     border:5px solid #A9B8CE;
-    height: 460px;
 }
 
 
 
 button {
-font-family: 'Montserrat', sans-serif;    
+font-family:'Playfair Display', serif;    
 background-color:#A9B8CE;
 border:none;
 color:black;
 padding: 10px 20px 10px 20px;
 border-radius:10px;
-margin:10px;
+margin:20px;
 text-align: center;
 }
 
+    button a {
+    text-decoration: none;
+    }
 
 button:hover {
 background-color: white;
@@ -126,6 +125,11 @@ h6 {
 
     }
     
+      #topper {
+    background-color: #D9D9D9;
+    text-align: center;
+    }
+    
   
 }
 @media (min-width:576px) {
@@ -134,17 +138,10 @@ h6 {
 }
     
     #body {
-     margin:0px 0px 0px 100px
+     margin:0px 0px 0px 0px
     }
     
-   
-    
-     #topper {
-    height:500px;
-    background-color: #D9D9D9;
-    text-align: center;
-    }
-    
+
         
 
 }
