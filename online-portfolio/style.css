@@ -104,6 +104,28 @@ h6 {
         margin: 0px 0px 25px 0px;
     }
     
+
+    .nav a {
+    font-family:'Times New Roman';
+    color:black;
+    text-align:center;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    color:black;
+    }
+    
+.nav-item:hover {
+    background-color:#D9D9D9;
+        
+    }
+    
+.nav {
+        justify-content:center;
+
+    }
+    
   
 }
 @media (min-width:576px) {
