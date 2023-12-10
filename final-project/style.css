@@ -1,162 +1,122 @@
 @media {
-
-
-img {
-    
-width: 100%;  
+	img {
+		width: 100%;
+	}
+	#topper {
+		height: 500px;
+		background-image: url(lefrakphoto.png);
+		background-size: cover;
+		background-position: center;
+	}
+	.content {
+		width: 100%;
+		margin: auto;
+		font-size: 18px;
+		font-family: Georgia;
+	}
+	.red {
+		color: grey;
+	}
+	h1 {
+		font-size: 45px;
+		font-family: Georgia;
+		font-weight: bold;
+	}
+	#byline {
+		color: grey;
+		font-family: georgia;
+		margin: auto;
+		font-size: 15px;
+	}
+	#caption {
+		color: grey;
+		font-family: georgia;
+		margin: auto;
+		font-size: 15px;
+	}
+	.instoryphoto {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+	}
+	.captiontwoandthree {
+		color: grey;
+		font-family: georgia;
+		font-size: 15px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+		text-align: left;
+	}
+	.chart {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 40%;
+	}
+	.pullquote {
+		width: 85%;
+		margin: 150px 0px 30px 0px;
+		padding: 30px 10px 10px 10px;
+		margin: auto;
+		border-top: 10px solid darkolivegreen;
+		text-align: center;
+		color: darkolivegreen;
+	}
+	.quote {
+		font-size: 30px;
+		font-family: georgia;
+		font-weight: bold;
+	}
+	.attribution {
+		font-family: georgia;
+		font-weight: bold;
+	}
+	.quotemark {
+		font-size: 100px;
+		font-weight: bold;
+		float: left;
+		line-height: 60px;
+		font-family: georgia;
+	}
 }
-
-#topper {
-    
-    height:500px;
-    background-image:url(lefrakphoto.png);
-    background-size:cover;
-    background-position: center;
-}
-
-.content {
-    width: 100%;
-    margin:auto;
-    font-size: 18px;
-    font-family: Georgia;
-}
-  
-    .red {
-    color:grey;
-    }  
-    
-    h1 {
-    font-size: 45px;
-    font-family: Georgia;
-    font-weight: bold;
-}
-    
-      #byline {
-    color:grey;
-    font-family: georgia;
-    margin: auto;
-    font-size:15px;
-    }
-    
-     #caption {
-    color:grey;
-    font-family: georgia;
-    margin: auto;
-    font-size:15px;
-    }
-    
-    #hikingphoto {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-    }
-
-     #captiontwo {
-    color:grey;
-    font-family: georgia;
-    font-size:15px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%; 
-text-align: left;
-    }
-    
-    #chart {
-   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-    }
-    
-    
-    .pullquote {
-    width: 85%;
-    margin:150px 0px 30px 0px;
-    padding: 30px 10px 10px 10px;
-    margin: auto;
-    border-top: 10px solid darkolivegreen;
-    text-align: center;
-    color: darkolivegreen;
-}
-    
-    .quote {
-        font-size: 30px;
-         font-family: georgia;
-        font-weight: bold;
-    
-    }
-    
-    .attribution {
-        font-family: georgia;
-        font-weight: bold;
-   
-        
-    }
-    
-    .quotemark {
-        
-    font-size:100px;
-    font-weight:bold;
-    float:left;
-    line-height: 60px;
-    font-family: georgia;
-    }
-    
-    
-}
-
-
-
-
 @media (min-width: 576px) {
-    
-    .content {
-    width: 90%;
-    margin:auto;
+	.content {
+		width: 90%;
+		margin: auto;
+	}
+	h1 {
+		font-size: 40px;
+		font-family: Georgia;
+		font-weight: bold;
+	}
+	#byline {
+		color: grey;
+		font-family: georgia;
+		margin: auto;
+		font-size: 15px;
+	}
+	#caption {
+		color: grey;
+		font-family: georgia;
+		margin: auto;
+		font-size: 15px;
+	}
+	#reproduced {
+		color: grey;
+		font-size: 15px;
+	}
 }
-    
-    h1 {
-    font-size: 40px;
-    font-family: Georgia;
-    font-weight: bold;
-}
-    
-    #byline {
-    color:grey;
-    font-family: georgia;
-    margin: auto;
-    font-size:15px;
-    }
-    
-    #caption {
-    color:grey;
-    font-family: georgia;
-    margin: auto;
-    font-size:15px;
-    }
-    
-    #reproduced {
-    color:grey;
-    font-size:15px;
-    }
-    
-  
-
-}
-
-
 @media (min-width: 992px) {
-     .content {
-    width: 60%;
-    margin:auto;
-    }
-    h1 {
-    font-size: 35px;
-    font-weight: bold;
-    font-family: Georgia;
-}
-    
-    
+	.content {
+		width: 60%;
+		margin: auto;
+	}
+	h1 {
+		font-size: 35px;
+		font-weight: bold;
+		font-family: Georgia;
+	}
 }
