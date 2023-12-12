@@ -34,11 +34,12 @@
 		margin: auto;
 		font-size: 15px;
 	}
+    
 	.instoryphoto {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 60%;
+		width: 100%;
 	}
 	.captiontwoandthree {
 		color: grey;
@@ -47,23 +48,23 @@
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 60%;
+		width: 100%;
 		text-align: left;
 	}
 	.chart {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 40%;
+		width: 100%;
 	}
 	.pullquote {
-		width: 85%;
+		width: 100%;
 		margin: 150px 0px 30px 0px;
 		padding: 30px 10px 10px 10px;
 		margin: auto;
-		border-top: 10px solid darkolivegreen;
+		border-top: 10px solid #60852b;
 		text-align: center;
-		color: darkolivegreen;
+		color: #60852b;
 	}
 	.quote {
 		font-size: 30px;
@@ -108,6 +109,41 @@
 		color: grey;
 		font-size: 15px;
 	}
+    
+    .chart {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+        width: 90%;}
+    
+    .instoryphoto {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+	}
+    
+    
+    .captiontwoandthree {
+		color: grey;
+		font-family: georgia;
+		font-size: 15px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		text-align: left;
+}
+    
+    .pullquote {
+		width: 90%;
+		margin: 150px 0px 30px 0px;
+		padding: 30px 10px 10px 10px;
+		margin: auto;
+		border-top: 10px solid #60852b;
+		text-align: center;
+		color: #60852b;
+	}
 }
 @media (min-width: 992px) {
 	.content {
@@ -119,4 +155,39 @@
 		font-weight: bold;
 		font-family: Georgia;
 	}
+    
+    .chart {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+        width: 60%;}
+    
+    .captiontwoandthree {
+		color: grey;
+		font-family: georgia;
+		font-size: 15px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+		text-align: left;
+}
+    
+      .instoryphoto {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+	}
+    
+      .pullquote {
+		width: 60%;
+		margin: 150px 0px 30px 0px;
+		padding: 30px 10px 10px 10px;
+		margin: auto;
+		border-top: 10px solid #60852b;
+		text-align: center;
+		color: #60852b;
+	}
+    
 }
