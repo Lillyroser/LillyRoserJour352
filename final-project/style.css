@@ -34,7 +34,6 @@
 		margin: auto;
 		font-size: 15px;
 	}
-    
 	.instoryphoto {
 		display: block;
 		margin-left: auto;
@@ -82,8 +81,7 @@
 		line-height: 60px;
 		font-family: georgia;
 	}
-    
-    #storypromo {
+	#storypromo {
 		color: #60852b;
 		font-family: georgia;
 		font-size: 15px;
@@ -91,31 +89,28 @@
 		margin-left: auto;
 		margin-right: auto;
 		width: 100%;
-		text-align: left;
-        font-weight: bold;
+		text-align: center;
+		font-weight: bold;
 	}
-    
-    .green-button {
+	.green-button {
 		font-family: georgia;
 		background-color: #60852b;
 		border: none;
-        margin: 30px 0px 30px 0px;
-          position: relative;
-          left: 50%;
--ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-    padding: 10px;
+		margin: 30px 0px 30px 0px;
+		position: relative;
+		left: 50%;
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		padding: 10px;
 		border-radius: 10px;
-
 	}
-    
 	button a {
 		text-decoration: none;
 		color: black;
 	}
 	button:hover {
 		background-color: lightgrey;
-}
+	}
 }
 @media (min-width: 576px) {
 	.content {
@@ -143,22 +138,19 @@
 		color: grey;
 		font-size: 15px;
 	}
-    
-    .chart {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-        width: 90%;}
-    
-    .instoryphoto {
+	.chart {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		width: 90%;
 	}
-    
-    
-    .captiontwoandthree {
+	.instoryphoto {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+	}
+	.captiontwoandthree {
 		color: grey;
 		font-family: georgia;
 		font-size: 15px;
@@ -167,9 +159,8 @@
 		margin-right: auto;
 		width: 90%;
 		text-align: left;
-}
-    
-    #storypromo {
+	}
+	#storypromo {
 		color: #60852b;
 		font-family: georgia;
 		font-size: 15px;
@@ -177,11 +168,10 @@
 		margin-left: auto;
 		margin-right: auto;
 		width: 90%;
-		text-align: left;
-        font-weight: bold;
+		text-align: center;
+		font-weight: bold;
 	}
-    
-    .pullquote {
+	.pullquote {
 		width: 90%;
 		margin: 150px 0px 30px 0px;
 		padding: 30px 10px 10px 10px;
@@ -201,14 +191,13 @@
 		font-weight: bold;
 		font-family: Georgia;
 	}
-    
-    .chart {
+	.chart {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-        width: 60%;}
-    
-    .captiontwoandthree {
+		width: 60%;
+	}
+	.captiontwoandthree {
 		color: grey;
 		font-family: georgia;
 		font-size: 15px;
@@ -217,16 +206,14 @@
 		margin-right: auto;
 		width: 60%;
 		text-align: left;
-}
-    
-      .instoryphoto {
+	}
+	.instoryphoto {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		width: 60%;
 	}
-    
-      .pullquote {
+	.pullquote {
 		width: 60%;
 		margin: 150px 0px 30px 0px;
 		padding: 30px 10px 10px 10px;
@@ -235,8 +222,7 @@
 		text-align: center;
 		color: #60852b;
 	}
-    
-     #storypromo {
+	#storypromo {
 		color: #60852b;
 		font-family: georgia;
 		font-size: 15px;
@@ -244,8 +230,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		width: 60%;
-		text-align: left;
-        font-weight: bold;
+		text-align: center;
+		font-weight: bold;
 	}
-    
 }
