@@ -19,7 +19,7 @@
 	}
 	h1 {
 		font-size: 45px;
-		font-family: Georgia;
+        font-family: 'Noto Serif', serif;
 		font-weight: bold;
 	}
 	#byline {
@@ -113,13 +113,16 @@
 	}
 }
 @media (min-width: 576px) {
+    
+ 
+    
 	.content {
 		width: 90%;
 		margin: auto;
 	}
 	h1 {
 		font-size: 40px;
-		font-family: Georgia;
+        font-family: 'Noto Serif', serif;
 		font-weight: bold;
 	}
 	#byline {
@@ -182,6 +185,8 @@
 	}
 }
 @media (min-width: 992px) {
+    
+    
 	.content {
 		width: 60%;
 		margin: auto;
@@ -189,7 +194,7 @@
 	h1 {
 		font-size: 35px;
 		font-weight: bold;
-		font-family: Georgia;
+        font-family: 'Noto Serif', serif;
 	}
 	.chart {
 		display: block;
